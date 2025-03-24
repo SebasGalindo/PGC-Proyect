@@ -1,0 +1,11 @@
+,Acaro_Araña_Roja_Dos_Puntos,Mancha_Bacteriana,Mancha_Diana,Mancha_Foliar_Por_Septoria,Moho_Foliar,Saludable,Tizon_Tardio,Tizon_Temprano,Virus_Mosaico,Virus_rizado_amarillo
+Acaro_Araña_Roja_Dos_Puntos,250,0,0,0,0,0,0,0,1,1
+Mancha_Bacteriana,0,319,0,1,0,0,0,0,0,0
+Mancha_Diana,1,0,205,5,0,0,0,0,0,0
+Mancha_Foliar_Por_Septoria,0,0,0,266,0,0,0,0,0,0
+Moho_Foliar,1,0,0,1,141,0,0,0,0,0
+Saludable,1,0,0,0,0,238,0,0,0,0
+Tizon_Tardio,0,0,0,7,1,0,273,6,0,0
+Tizon_Temprano,0,2,1,9,0,0,0,138,0,0
+Virus_Mosaico,0,0,0,0,0,0,0,0,56,0
+Virus_rizado_amarillo,0,1,0,0,0,0,0,0,0,803

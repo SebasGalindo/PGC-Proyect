@@ -25,7 +25,7 @@ col2.image(
 
 # Github icon
 st.markdown(
-    """<a href="https://github.com/">
+    """<a href="https://github.com/SebasGalindo/PGC-Proyect">
     <img src="data:image/png;base64,{}" width="50">
     </a>""".format(
         base64.b64encode(open("Resources/Images/github-mark.png", "rb").read()).decode()

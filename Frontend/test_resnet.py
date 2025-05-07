@@ -21,10 +21,11 @@ categories = {
                 "Saludable":"Tomate saludable"
     }
 
-st.write("Las categorías son las siguientes:")
-values = list(categories.values())
-for categorie in values:
-    st.write(f"**-> $\\quad$ {categorie}**")
+with st.expander("Posibles Categorías "):
+    values = list(categories.values())
+    for categorie in values:
+        st.write(f"**-> $\\quad$ {categorie}**")
+        
 st.write("""### :primary[ **Prueba de clasificación** ]""")
 image_label  =  "Por favor, sube una imagen de una hoja de tomate para clasificarla."
     

@@ -4,7 +4,11 @@ st.set_page_config(layout="wide")
 
 st.title(":primary[Red Neuronal Convolucional para la Clasificación de Hojas Sanas y Enfermas en Plantas de Tomate]")
 
-st.write("""
+st.markdown("<br>", unsafe_allow_html=True)
+
+col1, col2 = st.columns([3, 1])
+
+col1.write("""
             ## **Integrantes:**
             ### **John Sebastián Galindo Hernández**
             ### **Juan David Moreno Beltrán**
@@ -12,11 +16,14 @@ st.write("""
          
          """)
 
+#Qr image for test the app
+col2.image(
+    "Resources/Images/qr_pgc_code.png",
+    caption="Escanea el código QR para probar la aplicación.",
+    use_container_width=False,
+)
+
 # Github icon
-
-st.markdown("<br> <br>", unsafe_allow_html=True)
-
-
 st.markdown(
     """<a href="https://github.com/">
     <img src="data:image/png;base64,{}" width="50">
@@ -25,3 +32,4 @@ st.markdown(
     ),
     unsafe_allow_html=True,
 )
+

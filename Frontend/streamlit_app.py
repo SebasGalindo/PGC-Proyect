@@ -6,7 +6,6 @@ pages = {
     ],
     "Explicaciones": [
         st.Page("pgc_presentation.py", title="PGG Información"),
-        st.Page("resnet_architecture.py", title="ResNet Arquitectura"),
     ],
     "Código": [
         st.Page("dataset_explanation.py", title="Explicación del Dataset"),
